@@ -8,7 +8,7 @@ Custom Toast Library for Flutter
 ![](https://img.shields.io/badge/Code-Dart-informational?style=flat&logo=dart&color=29B1EE)
 ![](https://img.shields.io/badge/Code-Flutter-informational?style=flat&logo=flutter&color=0C459C)
 
-A flutter widget for the core button
+A flutter widget for the display messages
 
 ## Supported Platforms
 

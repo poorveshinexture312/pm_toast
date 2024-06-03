@@ -7,7 +7,7 @@ Custom Toast Library for Flutter
 ![](https://img.shields.io/badge/Code-Dart-informational?style=flat&logo=dart&color=29B1EE)
 ![](https://img.shields.io/badge/Code-Flutter-informational?style=flat&logo=flutter&color=0C459C)
 
-A flutter widget for the display messages
+A flutter widget for the display of messages
 
 ## Supported Platforms
 
@@ -109,7 +109,7 @@ class HomeScreen extends StatelessWidget {
 
 
 
-For more details check `example` project
+For more details check the `example` project
 
 | property        | description                                                        | default    |
 | --------------- | ------------------------------------------------------------------ |------------|
@@ -120,7 +120,7 @@ For more details check `example` project
 
 ## Preview Example (BuildContext)
   
-![example](pm_toast.gif)
+![](pm_toast.gif)
 
 
 ## Author

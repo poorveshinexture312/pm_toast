@@ -120,7 +120,7 @@ For more details check the `example` project
 
 ## Preview Example (BuildContext)
   
-![](pm_toast.gif)
+![example](pm_toast.gif)
 
 
 ## Author

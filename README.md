@@ -133,6 +133,3 @@ Contributions, issues, and feature requests are welcome!
 ## Show your Support 
 Give a star if this project helped you. 
 
-## Copyright & License
-Code copyright 2024-2025
-Code released under the [MIT license](https://github.com/poorveshinexture312/pm_text_fields/blob/main/LICENSE).

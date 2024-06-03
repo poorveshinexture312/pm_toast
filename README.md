@@ -121,7 +121,7 @@ For more details check `example` project
 
 ## Preview Example (BuildContext)
   
-![example](example1.gif)
+![example](pm_toast.gif)
 
 
 ## Author

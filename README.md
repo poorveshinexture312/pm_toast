@@ -20,7 +20,7 @@ A flutter widget for the display of messages
 
 ```yaml
 # add this line to your dependencies
-pm_toast: ^1.0.0
+pm_toast: ^1.0.1
 ```
 
 ```dart

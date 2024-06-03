@@ -1,7 +1,7 @@
 name: pm_toast
 description: "A flutter widget for the display messages"
 version: 1.0.0
-homepage:
+homepage: https://github.com/poorveshinexture312/pm_toast.git
 
 environment:
   sdk: '>=3.2.3 <4.0.0'

@@ -13,3 +13,7 @@
 ## 1.0.3
 
 * Updated code and README file.
+
+## 1.0.4
+
+* Updated code and README file.

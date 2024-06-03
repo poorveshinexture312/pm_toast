@@ -65,7 +65,7 @@ class PMToast {
       },
     );
 
-    overlay?.insert(overlayEntry);
+    overlay.insert(overlayEntry);
     Future.delayed(duration, () => overlayEntry.remove());
   }
 

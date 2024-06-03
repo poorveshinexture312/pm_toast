@@ -4,11 +4,11 @@
 Custom Toast Library for Flutter
 
 [![pub package](https://img.shields.io/badge/version-v1.0.0-blue)](https://pub.dev/packages/pm_toast)
-[![license](https://img.shields.io/badge/license-MIT-britegreen)](https://github.com/poorveshinexture312/pm_test/blob/main/LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-britegreen)](https://github.com/poorveshinexture312/pm_toast/blob/main/LICENSE)
 ![](https://img.shields.io/badge/Code-Dart-informational?style=flat&logo=dart&color=29B1EE)
 ![](https://img.shields.io/badge/Code-Flutter-informational?style=flat&logo=flutter&color=0C459C)
 
-Now this toast library supports two kinds of toast messages one which requires `BuildContext` and the other with No `BuildContext`
+A flutter widget for the core button
 
 ## Supported Platforms
 

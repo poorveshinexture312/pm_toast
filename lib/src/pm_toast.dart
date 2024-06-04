@@ -1,23 +1,59 @@
 import 'package:flutter/material.dart';
 
+/// Enum representing the position of the toast message on the screen.
 enum ToastPosition { top, center, bottom }
 
+/// A customizable toast message widget.
+///
+/// The [PMToast] class provides a way to display temporary messages to the user
+/// in a customizable toast format. It supports optional images and buttons.
 class PMToast {
+  /// The build context to show the toast in.
   final BuildContext context;
+
+  /// The message to be displayed in the toast.
   final String message;
+
+  /// The duration for which the toast is displayed.
   final Duration duration;
+
+  /// The background color of the toast.
   final Color backgroundColor;
+
+  /// The color of the text in the toast.
   final Color textColor;
+
+  /// The font size of the text in the toast.
   final double fontSize;
+
+  /// The position of the toast on the screen.
   final ToastPosition position;
+
+  /// The border radius of the toast container.
   final BorderRadius borderRadius;
+
+  /// The padding inside the toast container.
   final EdgeInsets padding;
+
+  /// An optional image to be displayed on the left side of the toast.
   final Widget? leftImage;
+
+  /// An optional button to be displayed on the left side of the toast.
   final Widget? leftButton;
+
+  /// An optional button to be displayed on the right side of the toast.
   final Widget? rightButton;
+
+  /// A callback function to be called when the right button is pressed.
   final VoidCallback? onRightButtonPressed;
+
+  /// A callback function to be called when the left button is pressed.
   final VoidCallback? onLeftButtonPressed;
 
+  /// Creates a [PMToast] instance with customizable options.
+  ///
+  /// The [context] and [message] parameters are required.
+  /// Other parameters have default values, but can be overridden.
   PMToast({
     required this.context,
     required this.message,
@@ -35,6 +71,10 @@ class PMToast {
     this.onLeftButtonPressed,
   });
 
+  /// Shows the toast message.
+  ///
+  /// This method inserts an overlay entry into the [context] overlay,
+  /// displaying the toast for the specified [duration].
   void show() {
     final overlay = Overlay.of(context);
     final overlayEntry = OverlayEntry(
@@ -45,8 +85,7 @@ class PMToast {
             topPosition = MediaQuery.of(context).size.height * 0.1;
             break;
           case ToastPosition.center:
-            topPosition =
-                MediaQuery.of(context).size.height * 0.4; // Adjust as needed
+            topPosition = MediaQuery.of(context).size.height * 0.4;
             break;
           case ToastPosition.bottom:
             topPosition = MediaQuery.of(context).size.height * 0.9;
@@ -69,6 +108,7 @@ class PMToast {
     Future.delayed(duration, () => overlayEntry.remove());
   }
 
+  /// Builds the widget representing the toast message.
   Widget _buildToastWidget() {
     return Center(
       child: Container(

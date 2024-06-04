@@ -1,9 +1,9 @@
 
-# [Flutter PM Toast](https://pub.dev/packages/fluttertoast)  
+# [Flutter PM Toast](https://pub.dev/packages/pm_toast)  
 
 Custom Toast Library for Flutter
 
-[![pub package](https://img.shields.io/badge/version-v1.0.7-blue)](https://pub.dev/packages/pm_toast)
+[![pub package](https://img.shields.io/badge/version-v1.0.8-blue)](https://pub.dev/packages/pm_toast)
 ![](https://img.shields.io/badge/Code-Dart-informational?style=flat&logo=dart&color=29B1EE)
 ![](https://img.shields.io/badge/Code-Flutter-informational?style=flat&logo=flutter&color=0C459C)
 
@@ -20,14 +20,14 @@ A flutter widget for the display of messages
 
 ```yaml
 # add this line to your dependencies
-pm_toast: ^1.0.7
+pm_toast: ^1.0.8
 ```
 
 ```dart
 import 'package:pm_toast/pm_toast.dart';
 ```
 
-## Flutrer PM Toast (Android & iOS)
+## Flutter PM Toast (Android & iOS)
 
 ```dart
 import 'package:flutter/material.dart';

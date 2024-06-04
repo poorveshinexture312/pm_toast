@@ -1,6 +1,6 @@
 name: pm_toast
 description: "A Flutter package showcasing customizable toast messages with optional images and buttons, supporting both Android and iOS."
-version: 1.0.7
+version: 1.0.8
 homepage: https://github.com/poorveshinexture312/pm_toast.git
 
 environment:

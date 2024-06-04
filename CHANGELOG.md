@@ -29,3 +29,7 @@
 ## 1.0.7
 
 * Code Optimize and add comments
+
+## 1.0.8
+
+* Updated code and README file.

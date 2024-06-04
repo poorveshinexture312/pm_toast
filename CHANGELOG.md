@@ -17,3 +17,7 @@
 ## 1.0.4
 
 * Updated code and README file.
+
+## 1.0.5
+
+* Performance improvement

@@ -21,3 +21,7 @@
 ## 1.0.5
 
 * Performance improvement
+
+## 1.0.6
+
+* Performance improvement

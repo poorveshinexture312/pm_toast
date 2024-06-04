@@ -3,7 +3,7 @@
 
 Custom Toast Library for Flutter
 
-[![pub package](https://img.shields.io/badge/version-v1.0.0-blue)](https://pub.dev/packages/pm_toast)
+[![pub package](https://img.shields.io/badge/version-v1.0.5-blue)](https://pub.dev/packages/pm_toast)
 ![](https://img.shields.io/badge/Code-Dart-informational?style=flat&logo=dart&color=29B1EE)
 ![](https://img.shields.io/badge/Code-Flutter-informational?style=flat&logo=flutter&color=0C459C)
 
